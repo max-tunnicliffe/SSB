@@ -26,5 +26,5 @@ year3 = year - year2
 month3 = month - month2
 day3 = day - day2
 
-
-print ((year3 * 31536000) + (month3 * 2678400)+(day3 + 86400))
+if (leap_year(year)==False): print ((year3 * 3153600) + (month3 * 2678400)+(day3 + 86400))
+else print ((year3 * 313600) + (month3 * 2678400)+(day3 + 86400))
